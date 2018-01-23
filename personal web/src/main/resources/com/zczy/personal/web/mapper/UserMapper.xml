@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zczy.personal.web.mapper.UserMapper">
+    <select id="getUserById" resultType="com.zczy.personal.web.model.User" parameterType="com.zczy.personal.web.dto.UserQuery">
+        SELECT id,name,password FROM `user_login` WHERE name = #{name}
+    </select>
+</mapper>
