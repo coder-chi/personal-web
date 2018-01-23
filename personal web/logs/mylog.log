@@ -1,0 +1,125 @@
+2018-01-22 16:30:20.659  INFO 73847 --- [main] c.z.personal.web.PersonalWebApplication  : Starting PersonalWebApplication on zhangzhiyuandeMacBook-Pro.local with PID 73847 (started by zhangzhiyuan in /Users/zhangzhiyuan/Desktop/xiangmu/personal web)
+2018-01-22 16:30:20.666  INFO 73847 --- [main] c.z.personal.web.PersonalWebApplication  : No active profile set, falling back to default profiles: default
+2018-01-22 16:30:20.740  INFO 73847 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4206a205: startup date [Mon Jan 22 16:30:20 CST 2018]; root of context hierarchy
+2018-01-22 16:30:22.374  INFO 73847 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-01-22 16:30:22.385  INFO 73847 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-01-22 16:30:22.386  INFO 73847 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-22 16:30:22.481  INFO 73847 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-01-22 16:30:22.744  INFO 73847 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-01-22 16:30:22.750  INFO 73847 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-01-22 16:30:22.750  INFO 73847 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-01-22 16:30:22.750  INFO 73847 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-01-22 16:30:22.751  INFO 73847 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-01-22 16:30:23.435  INFO 73847 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-01-22 16:30:23.496  INFO 73847 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-01-22 16:30:23.502  INFO 73847 --- [main] c.z.personal.web.PersonalWebApplication  : Started PersonalWebApplication in 3.246 seconds (JVM running for 4.088)
+2018-01-22 16:30:28.779  INFO 73847 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-01-22 16:30:28.820  INFO 73847 --- [http-nio-8080-exec-1] c.z.p.web.controller.TestController      : 叽叽叽,日志可以输出
+2018-01-22 16:30:51.565  INFO 73847 --- [Thread-9] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4206a205: startup date [Mon Jan 22 16:30:20 CST 2018]; root of context hierarchy
+2018-01-22 16:30:51.570  INFO 73847 --- [Thread-9] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+"2018-01-22 16:31:46 [main] INFO  c.z.p.web.PersonalWebApplication - Starting PersonalWebApplication on zhangzhiyuandeMacBook-Pro.local with PID 73859 (started by zhangzhiyuan in /Users/zhangzhiyuan/Desktop/xiangmu/personal web)
+""2018-01-22 16:31:46 [main] DEBUG c.z.p.web.PersonalWebApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+""2018-01-22 16:31:46 [main] INFO  c.z.p.web.PersonalWebApplication - No active profile set, falling back to default profiles: default
+""2018-01-22 16:31:47 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4206a205: startup date [Mon Jan 22 16:31:47 CST 2018]; root of context hierarchy
+""2018-01-22 16:31:48 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-01-22 16:31:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-01-22 16:31:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+""2018-01-22 16:31:48 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-01-22 16:31:49 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-01-22 16:31:49 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-01-22 16:31:49 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-01-22 16:31:49 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-01-22 16:31:49 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-01-22 16:31:50 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-01-22 16:31:50 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2018-01-22 16:31:50 [main] INFO  c.z.p.web.PersonalWebApplication - Started PersonalWebApplication in 3.697 seconds (JVM running for 4.505)
+""2018-01-22 16:31:52 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-01-22 16:31:52 [http-nio-8080-exec-1] INFO  c.z.p.web.controller.TestController - 叽叽叽,日志可以输出
+""2018-01-22 16:44:35 [Thread-10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4206a205: startup date [Mon Jan 22 16:31:47 CST 2018]; root of context hierarchy
+""2018-01-22 16:44:35 [Thread-10] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2018-01-22 16:44:39 [main] INFO  c.z.p.web.PersonalWebApplication - Starting PersonalWebApplication on zhangzhiyuandeMacBook-Pro.local with PID 73951 (started by zhangzhiyuan in /Users/zhangzhiyuan/Desktop/xiangmu/personal web)
+""2018-01-22 16:44:39 [main] DEBUG c.z.p.web.PersonalWebApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+""2018-01-22 16:44:39 [main] INFO  c.z.p.web.PersonalWebApplication - No active profile set, falling back to default profiles: default
+""2018-01-22 16:44:39 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4206a205: startup date [Mon Jan 22 16:44:39 CST 2018]; root of context hierarchy
+""2018-01-22 16:44:41 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-01-22 16:44:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-01-22 16:44:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+""2018-01-22 16:44:41 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-01-22 16:44:41 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-01-22 16:44:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-01-22 16:44:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-01-22 16:44:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-01-22 16:44:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-01-22 16:44:42 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-01-22 16:44:42 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+""2018-01-22 16:44:42 [main] INFO  c.z.p.web.PersonalWebApplication - Started PersonalWebApplication in 3.165 seconds (JVM running for 3.968)
+""2018-01-22 16:44:46 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-01-22 16:45:42 [Thread-10] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4206a205: startup date [Mon Jan 22 16:44:39 CST 2018]; root of context hierarchy
+""2018-01-22 16:45:42 [Thread-10] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2018-01-22 17:56:21 [main] INFO  c.z.p.web.PersonalWebApplication - Starting PersonalWebApplication on zhangzhiyuandeMacBook-Pro.local with PID 947 (started by zhangzhiyuan in /Users/zhangzhiyuan/Desktop/xiangmu/personal web)
+""2018-01-22 17:56:21 [main] DEBUG c.z.p.web.PersonalWebApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+""2018-01-22 17:56:21 [main] INFO  c.z.p.web.PersonalWebApplication - No active profile set, falling back to default profiles: default
+""2018-01-22 17:56:21 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@52aa2946: startup date [Mon Jan 22 17:56:21 CST 2018]; root of context hierarchy
+""2018-01-22 17:56:22 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zczy.personal.web]' package. Please check your configuration.
+""2018-01-22 17:56:23 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-01-22 17:56:23 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-01-22 17:56:23 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+""2018-01-22 17:56:23 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-01-22 17:56:23 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-01-22 17:56:23 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-01-22 17:56:23 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-01-22 17:56:23 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-01-22 17:56:23 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-01-22 17:56:24 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+""2018-01-22 17:56:24 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2018-01-22 17:56:24 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2018-01-22 17:56:24 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+""2018-01-23 09:57:32 [main] INFO  c.z.p.web.PersonalWebApplication - Starting PersonalWebApplication on zhangzhiyuandeMacBook-Pro.local with PID 19973 (started by zhangzhiyuan in /Users/zhangzhiyuan/Desktop/xiangmu/personal-web/personal web)
+""2018-01-23 09:57:32 [main] DEBUG c.z.p.web.PersonalWebApplication - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+""2018-01-23 09:57:32 [main] INFO  c.z.p.web.PersonalWebApplication - No active profile set, falling back to default profiles: default
+""2018-01-23 09:57:32 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@52aa2946: startup date [Tue Jan 23 09:57:32 CST 2018]; root of context hierarchy
+""2018-01-23 09:57:33 [main] WARN  o.m.s.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.zczy.personal.web]' package. Please check your configuration.
+""2018-01-23 09:57:34 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+""2018-01-23 09:57:34 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-01-23 09:57:34 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.23
+""2018-01-23 09:57:34 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-01-23 09:57:35 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-01-23 09:57:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-01-23 09:57:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-01-23 09:57:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-01-23 09:57:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-01-23 09:57:35 [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Tomcat.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.tomcat.jdbc.pool.DataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Cannot determine embedded database driver class for database type NONE. If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+""2018-01-23 09:57:35 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2018-01-23 09:57:35 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2018-01-23 09:57:35 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Cannot determine embedded database driver class for database type NONE
+
+Action:
+
+If you want an embedded database please put a supported one on the classpath. If you have database settings to be loaded from a particular profile you may need to active it (no profiles are currently active).
+
+"
