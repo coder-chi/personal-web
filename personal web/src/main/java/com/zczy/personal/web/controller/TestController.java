@@ -32,7 +32,7 @@ public class TestController {
     public Result login() {
         UserQuery query = new UserQuery();
         query.setName("zhangzhiyuan");
-        User user = userService.login(query);
+        User user = userService.getUser(query);
         return new Result(200,user);
     }
 }

@@ -9,5 +9,7 @@ import com.zczy.personal.web.model.User;
  * @Date: Created in 2018/1/23 14:53
  */
 public interface UserService {
-    User login(UserQuery query);
+    User getUser(UserQuery query);
+
+    Result login(User user);
 }
