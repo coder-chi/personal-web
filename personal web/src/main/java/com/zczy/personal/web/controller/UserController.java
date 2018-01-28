@@ -1,6 +1,5 @@
 package com.zczy.personal.web.controller;
 
-import com.zczy.personal.web.dto.UserQuery;
 import com.zczy.personal.web.model.Result;
 import com.zczy.personal.web.model.User;
 import com.zczy.personal.web.service.UserService;
