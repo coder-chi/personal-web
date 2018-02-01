@@ -1,5 +1,9 @@
 package com.zczy.personal.web;
-
+/**
+ * @Author: zhangzhiyuan
+ * @Date:
+ * 加上这个注解，使得支持事务
+ */
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.mybatis.spring.SqlSessionTemplate;
@@ -15,7 +19,6 @@ import org.springframework.transaction.annotation.TransactionManagementConfigure
 import javax.sql.DataSource;
 
 @Configuration
-//加上这个注解，使得支持事务
 @EnableTransactionManagement
 public class MybatisConfig implements TransactionManagementConfigurer {
 

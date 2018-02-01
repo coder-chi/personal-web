@@ -1,5 +1,10 @@
 package com.zczy.personal.web;
 
+/**
+ * @Author: zhangzhiyuan
+ * @Date:
+ * 利用@Value注入关键属性建立DataSource的bean
+ */
 import com.zaxxer.hikari.HikariDataSource;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -7,10 +12,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 import javax.sql.DataSource;
-
-/**
- * 利用@Value注入关键属性建立DataSource的bean
- */
 
 @Configuration
 @PropertySource("classpath:application.properties")

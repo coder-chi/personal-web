@@ -30,7 +30,9 @@ public class ManagerServiceImpl implements ManagerService {
         if(CollectionUtil.isListNotEmpty(managers)){
             return ResultUtil.getResult(200,managers.get(0));
         }
-        else return ResultUtil.getResult(500,null);
+        else{
+            return ResultUtil.getResult(500,null);
+        }
     }
 
 }
