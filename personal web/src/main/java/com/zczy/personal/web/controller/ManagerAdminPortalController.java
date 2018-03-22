@@ -27,4 +27,5 @@ public class ManagerAdminPortalController extends AbstractController {
         NullCheckUtil.checkNotNull(query.getName(), query.getPassword());
         return managerService.login(query);
     }
+
 }

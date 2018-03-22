@@ -1,6 +1,6 @@
 function article(){
     $.ajax({
-            url: '/p/user/article',
+            url: '../user/article',
             type: 'POST',
             data:"{}",
             dataType:"JSON",
